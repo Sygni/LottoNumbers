@@ -26,11 +26,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return 0
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "lottoCell", for: indexPath as IndexPath) as! LottoCell
+        
+        cell.number1.text = "1"
+        cell.number2.text = "2"
+        cell.number3.text = "3"
+        cell.number4.text = "4"
+        cell.number5.text = "5"
+        cell.number6.text = "6"
+        
         return cell
     }
   

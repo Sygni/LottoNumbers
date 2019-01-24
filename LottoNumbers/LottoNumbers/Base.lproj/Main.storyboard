@@ -34,10 +34,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="firstcell" id="s0r-9m-sdK">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="lottoCell" id="s0r-9m-sdK" customClass="LottoCell" customModule="LottoNumbers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s0r-9m-sdK" id="Ue7-0o-g6t">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s0r-9m-sdK" id="Ue7-0o-g6t" customClass="LottoCell" customModule="LottoNumbers">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -85,6 +85,14 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="number1" destination="Mto-b9-kKu" id="S6j-Dl-7Kx"/>
+                                            <outlet property="number2" destination="KfJ-Yg-p7g" id="qk4-7h-Suw"/>
+                                            <outlet property="number3" destination="o6d-E9-2YU" id="MpI-7E-J2a"/>
+                                            <outlet property="number4" destination="K79-Hk-iYI" id="WGm-Fo-9Iq"/>
+                                            <outlet property="number5" destination="Gxv-Tx-v26" id="Lfv-bK-v8M"/>
+                                            <outlet property="number6" destination="7kH-8w-NbR" id="MPg-7o-5CM"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

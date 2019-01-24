@@ -13,6 +13,7 @@
 		3B024A2921F88118008BB9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B024A2821F88118008BB9F7 /* Assets.xcassets */; };
 		3B024A2C21F88118008BB9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B024A2A21F88118008BB9F7 /* LaunchScreen.storyboard */; };
 		3B024A3721F88118008BB9F7 /* LottoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B024A3621F88118008BB9F7 /* LottoNumbersTests.swift */; };
+		3B024A4521F9EA84008BB9F7 /* LottoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B024A4421F9EA84008BB9F7 /* LottoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3B024A3221F88118008BB9F7 /* LottoNumbersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoNumbersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B024A3621F88118008BB9F7 /* LottoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoNumbersTests.swift; sourceTree = "<group>"; };
 		3B024A3821F88118008BB9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B024A4421F9EA84008BB9F7 /* LottoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3B024A2821F88118008BB9F7 /* Assets.xcassets */,
 				3B024A2A21F88118008BB9F7 /* LaunchScreen.storyboard */,
 				3B024A2D21F88118008BB9F7 /* Info.plist */,
+				3B024A4421F9EA84008BB9F7 /* LottoCell.swift */,
 			);
 			path = LottoNumbers;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B024A2421F88115008BB9F7 /* ViewController.swift in Sources */,
+				3B024A4521F9EA84008BB9F7 /* LottoCell.swift in Sources */,
 				3B024A2221F88115008BB9F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LottoNumbers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LottoNumbers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
